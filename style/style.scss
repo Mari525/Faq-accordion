@@ -26,6 +26,7 @@ body {
 }
 
 .faq {
+  width: 100%;
   margin: 0 25px;
   padding: 30px 24px 56px;
 
@@ -84,10 +85,16 @@ body {
   }
 
   &__answer {
+    display: none;
+
     grid-column: span 2;
 
     color: rgba(75, 11, 103, 0.66);
     text-align: justify;
+
+    &--active {
+      display: block;
+    }
   }
 }
 
