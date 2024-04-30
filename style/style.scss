@@ -72,6 +72,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &--hide {
+      display: none;
+    }
   }
 
   &__question {
